@@ -1,0 +1,173 @@
+body{
+	font-family: arial;
+	background-color: #f0f0f0;	
+}
+.icon{
+	display: none;
+}
+.container{
+	width: 1232px;
+	margin: 0 auto;
+}
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color:#873131;
+	z-index: 10;
+}
+.logo{
+	padding-top: 27px;
+	padding-left: 25px;
+	float: left;
+}
+nav{
+	float: right; 
+	padding-top: 45px;
+}
+nav ul li {
+      display: inline;
+}
+nav ul li a{
+	text-decoration: none;
+	margin-right: 23px;
+	font-size: 19px;
+	color: #fefefe;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+.slider{
+	text-align: center;
+	margin-top: 108px;
+}
+.blueberry { max-width: 960px; }
+
+
+.aside{
+	margin-bottom: 98px;
+}
+.one-third{
+	width: 29%;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.one-third:last-child{
+	margin-right: 0;
+}
+.icon-area{
+	text-align: center;
+}
+.icon-area i{
+	font-size: 60px;
+	color: #555555;
+}
+.icon-area h1{
+	font-size: 21px;
+	margin-top: 31px;
+	font-weight: bold;
+	margin-bottom: 36px;
+	color: #555555;
+}
+.icon-area p{
+	font-size: 15px;
+	color: #555555;
+	line-height: 20px;
+}
+.icon-area img{
+	margin-bottom: 21px;
+}
+.article{
+	width: 45%;
+	float: left;
+	margin-right:2.5%;
+	margin-left: 2.5%;	 
+}
+.article img{
+	width: 100%;
+}
+.aside{
+	width: 40%;
+	float: right;
+}
+.aside h1{
+    font-size: 20px;
+    color: #555555;
+    text-decoration: underline;
+    margin-bottom: 36px;
+    font-weight: bold;
+}
+.aside ul li{
+	font-size: 16px;
+	color: #555555;
+	line-height: 70px;
+}
+.bg{
+	text-align: center;
+	background-color: #542a32;
+}
+.icon-area-2{
+	color: white;
+	padding-top: 43px;
+	padding-bottom: 23px;
+}
+.icon-area-2 h1{
+	margin-bottom: 27px;
+	font-size: 25px;
+}
+.icon-area-2 h2{
+	font-weight: bold;
+	margin-bottom: 38px;
+}
+.icon-area-2 p{
+	line-height: 24px;
+}
+.icon-area-2 i{
+	font-size: 24px;
+	padding-right: 13px;
+}
+footer{
+	background-color: #3d3d3d;
+}
+.last-area{
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+img{
+	max-width: 100%;
+}
+
+@media only screen and (max-width: 786px){
+	  .icon{
+	  	display: block;
+	  	position: absolute;
+	  	top: 20px;
+	  	right: 20px;
+	  	color: white;
+	  }
+	  nav ul{
+	  	position: absolute;
+	  	display: none;
+	  	top: 47px;
+	  	right: 20px;
+	  	background-color: red;
+	  }
+	  nav:hover ul{
+	  	display: block;
+	  }
+	  nav ul li{
+	  	display: block;
+	  	line-height: 30px;
+	  }
+	.one-third,.aside,.article{
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin: 0;
+	}
+}
